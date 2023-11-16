@@ -298,11 +298,11 @@ section {
   width: 100%;
   gap: 1;
 }
-.project-card {
+/* .project-card {
   background-color: green;
   max-width: 350px;
   padding: 10px;
-}
+} */
 
 .experience-section .project-title {
   text-align: left;

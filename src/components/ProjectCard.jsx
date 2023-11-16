@@ -1,3 +1,5 @@
+import { FiGithub, FiExternalLink } from "react-icons/fi";
+
 const ProjectCard = () => {
   return (
     <div className="project-card min-w-[300px] rounded-xl max-w-[450px] p-3 aspect-video border-[#333] border">
@@ -7,9 +9,12 @@ const ProjectCard = () => {
           <h3>Project Name</h3>
           <p>Description</p>
         </div>
-        <div className="buttons">
-          <a className="border-2 border-black px-5 py-2 rounded-md" href="">
-            View
+        <div className="buttons flex gap-7">
+          <a className="h-max text-3xl" href="">
+            <FiGithub />
+          </a>
+          <a className="h-max text-3xl" href="">
+            <FiExternalLink />
           </a>
         </div>
       </div>
