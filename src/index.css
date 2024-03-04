@@ -187,13 +187,6 @@ section {
 }
 /* End of hero section */
 /* About-section */
-.about-section {
-}
-
-.about-image,
-.about-desc {
-  width: 50%;
-}
 
 .about-image {
   min-width: 50%;
@@ -267,7 +260,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 3em;
+
   gap: 2em;
 }
 
@@ -277,7 +270,6 @@ section {
 
 .about-desc p {
   line-height: 2rem;
-  text-align: left;
 }
 
 /* End of about-section */
